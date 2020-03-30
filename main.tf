@@ -1,5 +1,5 @@
 provider "google" {
-  #credentials = file("terraform.json")
+  credentials = file("cred.json")
   project = "lyrical-shore-262101"
   region  = "us-east1"
   
