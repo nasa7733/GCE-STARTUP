@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("cred.json")
+  credentials = file("new_cred.json")
   project = "lyrical-shore-262101"
   region  = "us-east1"
   
